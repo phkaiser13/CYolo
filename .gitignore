@@ -1,0 +1,54 @@
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+*.ilk
+*.idb
+
+# Build folders
+cmake-build-*/
+build/
+bin/
+out/
+
+# CLion specific files
+.idea/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-profile/
+
+# VS Code settings (caso use)
+.vscode/
+
+# Arquivos temporários do sistema
+*.log
+*.tmp
+*.temp
+
+# Arquivos de cache e compilação do CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# External library binaries (opcional: ignore se quiser subir a lib)
+External/bin/
+External/lib/
+
+# Logs do runtime (se criar logs)
+*.log
+
+# Arquivos de configuração local
+*.user
+*.user.*
+
+# Backup
+*~
+*.bak
+
+# Arquivos temporários do editor
+*.swp
