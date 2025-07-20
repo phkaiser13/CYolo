@@ -33,7 +33,7 @@ cmake-build-profile/
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
-Makefile
+
 
 # External library binaries (opcional: ignore se quiser subir a lib)
 External/bin/
